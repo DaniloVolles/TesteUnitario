@@ -1,9 +1,3 @@
-fun main() {
-    println(countXO("xxoo"))
-    println(countXO("xxooo"))
-    println(countXO("aaa"))
-}
-
 fun countXO (str: String): Boolean {
 
     val strLower = str.lowercase()
@@ -21,4 +15,19 @@ fun countXO (str: String): Boolean {
         i++
     }
     return countO == countX && countO != 0
+}
+
+fun abc (): Boolean {
+    return true
+}
+
+fun xyz (): Boolean {
+    val str: String? = null
+    return str!!.length == 0
+}
+
+fun main() {
+    println(countXO("xxoo"))
+    println(countXO("xxooo"))
+    println(countXO("aaa"))
 }
