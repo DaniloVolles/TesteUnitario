@@ -23,7 +23,7 @@ fun abc (): Boolean {
 
 fun xyz (): Boolean {
     val str: String? = null
-    return str!!.length == 0
+    return str!!.isEmpty()
 }
 
 fun main() {
